@@ -49,6 +49,29 @@ Codice del backend implementato con `flask`
 Codice del frontend basato su `Boostrap 4.0`
 
 
+## Deploy
+
+Scarica l'ultima versione addestrata del modello
+
+```
+wget https://github.com/galatolofederico/deep-salvini/releases/download/23012021/model.tar.gz
+```
+
+Estrai
+
+```
+tar -xzvf model.tar.gz
+```
+
+Avvia docker compose
+
+```
+docker-compose up
+```
+
+DeepSalvini sarà disponibile su `http://localhost`
+
+
 ## Ridistribuire/Contribuire
 
 La ridistribuzione del codice, integro o parziale, originale o modificato, è permessa nei limiti della licenza GNU/GPL Versione 3.

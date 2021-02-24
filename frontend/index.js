@@ -9,7 +9,7 @@ function submit(){
     spinner.hidden = false;
     $.ajax({
         type: 'POST',
-        url: "https://api.deepsalvini.club/generate",
+        url: "api/generate",
         data: {prompt: promptText},
         success: function(result){
             button.hidden = false;

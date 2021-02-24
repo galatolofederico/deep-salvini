@@ -85,4 +85,4 @@ La ridistribuzione del codice, integro o parziale, originale o modificato, è pe
 
 Ogni tipo di aiuto sotto qualsiasi forma è ovviamente ben accetto.
 
-DeepSalvini non è monetizzato e mai lo sarà: se vuoi aiutare a coprire i costi dei server puoi farlo [qui](paypal.me/federicogalatolo)
+DeepSalvini non è monetizzato e mai lo sarà: se vuoi aiutare a coprire i costi dei server puoi farlo [qui](https://paypal.me/federicogalatolo)

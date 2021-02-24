@@ -11,6 +11,8 @@ services:
     networks:
       - external
       - backend
+    restart: always
+
   backend:
     build: ./backend/
     volumes:
@@ -19,7 +21,8 @@ services:
       - MODEL=/model
     networks:
       - backend
-
+    restart: always
+    
 networks:
   external:
     internal: false

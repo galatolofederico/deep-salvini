@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  reverse-proxy:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+       - "./reverse-proxy-config:/etc/nginx/conf.d"
+       - "./frontend:/deepsalvini"
+    networks:
+      - external
+      - backend
+  backend:
+    build: ./backend/
+    volumes:
+      - "./model:/model"
+    environment:
+      - MODEL=/model
+    networks:
+      - backend
+
+networks:
+  external:
+    internal: false
+  backend:
+    internal: true

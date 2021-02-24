@@ -15,4 +15,7 @@ __pycache__/
 
 /backend/model
 
+model.tar.gz
+model/
+
 .vscode/

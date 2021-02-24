@@ -43,25 +43,6 @@ Per addestrare `GPT-2`:
 
 Codice del backend implementato con `flask` 
 
-Copiare un modello addestrato in una cartella chiamata `model`
-
-```
-cd backend/
-cp ../models/<modello> ./model
-```
-
-Creare l'immagine docker
-
-```
-docker build . -t deep-salvini-backend
-```
-
-Avviare
-
-```
-docker run -p <port>:80 deep-salvini-backend
-```
-
 
 ### frontend
 

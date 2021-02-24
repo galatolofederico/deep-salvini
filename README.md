@@ -51,6 +51,13 @@ Codice del frontend basato su `Boostrap 4.0`
 
 ## Deploy
 
+Clona il repository
+
+```
+git clone https://github.com/galatolofederico/deep-salvini.git
+cd deep-salvini
+```
+
 Scarica l'ultima versione addestrata del modello
 
 ```
